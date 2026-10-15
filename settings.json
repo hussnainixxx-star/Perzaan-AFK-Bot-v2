@@ -1,1 +1,89 @@
 
+{
+  "name": "Tecno AFK Bot",
+  "bot-account": {
+    "username": "TecnoBot",
+    "password": "",
+    "type": "offline"
+  },
+  "server": {
+    "ip": "tecno.aternos.me",
+    "port": 19736,
+    "version": false
+  },
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 100,
+    "z": 0
+  },
+  "utils": {
+    "auto-auth": {
+      "enabled": false,
+      "password": ""
+    },
+    "anti-afk": {
+      "enabled": true,
+      "sneak": false
+    },
+    "chat-messages": {
+      "enabled": false,
+      "repeat": false,
+      "repeat-delay": 500,
+      "messages": []
+    },
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 5000,
+    "max-reconnect-delay": 30000,
+    "periodic-rejoin": {
+      "enabled": true,
+      "min-interval": 20,
+      "max-interval": 60
+    }
+  },
+  "movement": {
+    "enabled": true,
+    "circle-walk": {
+      "enabled": false,
+      "radius": 4,
+      "speed": 3000
+    },
+    "look-around": {
+      "enabled": true,
+      "interval": 5000
+    },
+    "random-jump": {
+      "enabled": true,
+      "interval": 10000
+    }
+  },
+  "modules": {
+    "avoidMobs": false,
+    "combat": false,
+    "beds": false,
+    "chat": false,
+    "console-commands": false
+  },
+  "combat": {
+    "attack-mobs": false,
+    "auto-eat": false
+  },
+  "beds": {
+    "pick-up-day": false,
+    "place-night": false
+  },
+  "discord": {
+    "enabled": false,
+    "webhookUrl": "",
+    "events": {
+      "connect": false,
+      "disconnect": false,
+      "chat": false
+    }
+  },
+  "chat": {
+    "respond": false
+  }
+}
+
