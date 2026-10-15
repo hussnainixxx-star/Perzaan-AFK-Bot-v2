@@ -1,15 +1,16 @@
 
 {
-  "name": "Tecno AFK Bot",
+  "name": "AFK Bot",
   "bot-account": {
-    "username": "TecnoBot",
+    "username": "tecnolol",
     "password": "",
     "type": "offline"
   },
   "server": {
     "ip": "tecno.aternos.me",
     "port": 19736,
-    "version": false
+    "version": "",
+    "try-creative": false
   },
   "position": {
     "enabled": false,
@@ -29,32 +30,27 @@
     "chat-messages": {
       "enabled": false,
       "repeat": false,
-      "repeat-delay": 500,
+      "repeat-delay": 120,
       "messages": []
     },
     "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 5000,
-    "max-reconnect-delay": 30000,
-    "periodic-rejoin": {
-      "enabled": true,
-      "min-interval": 20,
-      "max-interval": 60
-    }
+    "max-reconnect-delay": 30000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
       "enabled": false,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": true,
+      "enabled": false,
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": false,
       "interval": 10000
     }
   },
@@ -86,4 +82,3 @@
     "respond": false
   }
 }
-
